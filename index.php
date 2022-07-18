@@ -12,7 +12,7 @@
 <body>
 <?php
 
- const TOKEN = '5577926719:AAFMFcfuj2dPQFzE35sAL81XU6Dq8rMAf40';
+ const TOKEN = ;//there is token here
 $update = json_decode(file_get_contents('php://input'),true);
 $message = $update['message'];
 $from = $message['from'];
